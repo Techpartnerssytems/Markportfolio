@@ -1,0 +1,23 @@
+{
+  "name": "Mark Dalumpines — AI Automation Specialist & GHL Expert",
+  "short_name": "Mark Dalumpines",
+  "description": "Official Portfolio of Mark Dalumpines (Markdalumpines.pages.dev) — AI Automation Specialist & GoHighLevel (GHL) Expert.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#060d17",
+  "theme_color": "#060d17",
+  "icons": [
+    {
+      "src": "01. Images/01. Mark Logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "01. Images/01. Mark Logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
