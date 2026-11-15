@@ -17,7 +17,8 @@
   --copper: #c27d43;
   --copper-bright: #d97706;
   --copper-glow: rgba(194, 125, 67, 0.45);
-  --lime: #00d2ff; /* Mapped to Mark's signature Electric Cyan */
+  --lime: #00d2ff;
+  /* Mapped to Mark's signature Electric Cyan */
   --lime-bright: #38bdf8;
   --lime-olive: #0284c7;
   --lime-glow: rgba(0, 210, 255, 0.45);
@@ -2137,6 +2138,7 @@ nav a.active {
     font-size: clamp(1.1rem, 4.5vw, 1.55rem) !important;
     gap: 6px !important;
   }
+
   .services-method-title::before,
   .services-method-title::after {
     display: none !important;
@@ -2430,8 +2432,10 @@ nav a.active {
   color: #0a192f;
   line-height: 1.25;
   letter-spacing: -0.015em;
-  margin: 0 0 6px;
-  min-height: 2.5em;
+  margin: 0 0 14px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e2e8f0;
+  min-height: 3.75em;
   display: flex;
   align-items: flex-start;
 }
@@ -2470,7 +2474,6 @@ nav a.active {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  margin-top: auto;
 }
 
 .svc-portrait-item {
@@ -2505,6 +2508,7 @@ nav a.active {
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
   }
+
   .svc-portrait-title,
   .svc-portrait-sub {
     min-height: auto;
@@ -2517,6 +2521,7 @@ nav a.active {
     grid-template-columns: repeat(3, 1fr);
     gap: 12px;
   }
+
   .click-wave-connector {
     display: none;
   }
@@ -2527,9 +2532,11 @@ nav a.active {
     grid-template-columns: 1fr;
     gap: 12px;
   }
+
   .click-wave-connector {
     display: none;
   }
+
   .svc-portrait-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 14px;
@@ -2540,28 +2547,34 @@ nav a.active {
   .services {
     padding: 30px 0 15px;
   }
+
   .services .container,
   .services .services-container {
     padding-left: 8px !important;
     padding-right: 8px !important;
   }
+
   .click-wave-container {
     padding: 18px 12px;
     border-radius: 20px;
     margin-bottom: 28px;
   }
+
   .click-wave-step {
     padding: 16px 14px;
     border-radius: 16px;
   }
+
   .click-wave-track {
     grid-template-columns: 1fr;
     gap: 10px;
   }
+
   .svc-portrait-grid {
     grid-template-columns: 1fr;
     gap: 12px;
   }
+
   .svc-portrait-card {
     padding: 18px 14px 16px;
     border-radius: 18px;
@@ -2725,19 +2738,22 @@ nav a.active {
   height: 440px;
 }
 
-.card-lawfirm {
+.card-fb {
   grid-column: span 5;
   height: 440px;
 }
 
-.card-tutorial {
+.card-telegram {
   grid-column: span 12;
   height: 440px;
 }
 
+.card-slack,
+.card-lawfirm,
+.card-tutorial,
 .card-staycation {
-  grid-column: span 7;
-  height: 440px;
+  grid-column: span 6;
+  height: 380px;
 }
 
 .card-travel {
@@ -3030,6 +3046,9 @@ nav a.active {
   }
 
   .card-techsavvy,
+  .card-fb,
+  .card-telegram,
+  .card-slack,
   .card-lawfirm,
   .card-tutorial,
   .card-staycation,
@@ -3066,6 +3085,9 @@ nav a.active {
   }
 
   .card-techsavvy,
+  .card-fb,
+  .card-telegram,
+  .card-slack,
   .card-lawfirm,
   .card-tutorial,
   .card-staycation,
